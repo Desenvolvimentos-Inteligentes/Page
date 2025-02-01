@@ -11,9 +11,9 @@
 }
 
 :root{
-    --red:#d63a25;
-    --white:#fff;
-    --dark:#1e1c2a;
+    --red:#39ff14;
+    --white:#000000;
+    --dark:#d3cbff;
 }
 body{
     color: var(--dark);

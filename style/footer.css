@@ -1,6 +1,6 @@
 /* Estilização básica do footer */
 .footer {
-    background-color: #222; /* Cor de fundo escura */
+    background-color: #000000; /* Cor de fundo escura */
     color: #fff; /* Cor do texto */
     text-align: center; /* Centraliza o conteúdo */
     padding: 15px; /* Espaçamento interno */
@@ -12,7 +12,7 @@
 
 /* Estilo do link */
 .footer a {
-    color: #00aaff; /* Cor do link */
+    color: #ff4141; /* Cor do link */
     text-decoration: none; /* Remove sublinhado */
     font-weight: bold; /* Deixa o texto em negrito */
 }
