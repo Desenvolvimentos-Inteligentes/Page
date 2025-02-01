@@ -1,0 +1,37 @@
+/* Estilização básica do footer */
+.footer {
+    background-color: #222; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 15px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto padrão */
+    width: 100%; /* Largura total */
+    position: relative;
+    bottom: 0;
+}
+
+/* Estilo do link */
+.footer a {
+    color: #00aaff; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.9rem; /* Reduz o tamanho do texto em telas menores */
+        padding: 10px; /* Ajusta o espaçamento */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: 0.8rem; /* Reduz ainda mais o texto em telas pequenas */
+        padding: 8px; /* Menos espaçamento */
+    }
+}
